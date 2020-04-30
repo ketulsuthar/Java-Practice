@@ -1,0 +1,26 @@
+
+7. Retirement 
+
+
+Consider an input, HashMap, that contains key as the ID and DOB as value of employees. Write a program to find out employees eligible for retirement. A person is eligible for retirement if his or her age is greater than or equal to 60. 
+Assume that the current date is 01/01/2014. 
+Include a class UserMainCode with a static method “retirementEmployeeList” that accepts a HashMap<String,String> as input and returns an ArrayList<String>. In this method, add the Employee IDs of all the persons eligible for retirement to list and return the sorted list. 
+(Assume date is in dd/MM/yyyy format). 
+Create a Class Main that would get the HashMap as input and call the static method retirementEmployeeList present in the UserMainCode. 
+Input and Output Format: 
+The first line of the input consists of an integer n that corresponds to the number of employees. 
+The next 2 lines of the input consist of strings that correspond to the id and DOB of employee 1. 
+The next 2 lines of the input consist of strings that correspond to the id and DOB of employee 2. 
+and so on... 
+Output consists of the list of employee ids eligible for retirement in sorted order. 
+
+Sample Input : 4 C1010 
+02/11/1987 
+C2020 
+15/02/1980 
+C3030 
+14/12/1952 
+T4040 
+20/02/1950 
+Sample Output: 
+[C3030, T4040]
