@@ -12,6 +12,7 @@ public class Main {
 		
 		System.out.println(UserMainCode.replacePlus(str1, str2));
 
+		sc.close();
 	}
 
 }
