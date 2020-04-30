@@ -1,0 +1,24 @@
+5. Mastering Hashmap 
+
+You have recently learnt about HashMaps, and in order to master them, you try and use them in all of your programs. 
+Your trainer/teacher has given you the following exercise: 
+1. Read 2n numbers as input, where the first number represents a key and second number represents a value. Both the numbers are of integer type. 
+2. Write a function getAverageOfOdd to find out average of all values whose keys are represented by odd numbers. Assume the average is an integer and never a decimal number. Return the average as output. Include this function in class UserMainCode. 
+
+Create a Class Main that would be used to read 2n numbers and build the hashmap. Call the static method present in UserMainCode. 
+Input and Output Format: 
+Input consists of 2n+ 1 integers. The first integer specifies the value of n (essentially the hashmap size). The next pair of n numbers denote the key and value. 
+Output consists of an integer representing the average. 
+Refer sample output for formatting specifications. 
+Sample Input 1: 
+4 
+2 
+34 
+1 
+4 
+5 
+12 
+4 
+22 
+Sample Output 1: 
+8
