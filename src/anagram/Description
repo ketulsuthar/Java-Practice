@@ -1,0 +1,27 @@
+
+6. Anagram 
+Write a program to check whether the two given strings are anagrams. 
+Note: Rearranging the letters of a word or phrase to produce a new word or phrase using all the original letters exactly once is called “Anagram." 
+Include a class UserMainCode with a static method “getAnagram” that accepts 2 strings as arguments and returns an integer. The method returns 1 if the 2 strings are anagrams. Else, it returns -1. 
+Create a Class Main that would get 2 Strings as input and call the static method getAnagram present in the UserMainCode. 
+Input and Output Format: 
+Input consists of 2 strings. Assume that all characters in the string are lower case letters. 
+Output consists of a string that is either “Anagram” or “Not Anagram.” 
+
+Sample Input 1: 
+eleven plus two 
+twelve plus one 
+Sample Output 1: 
+Anagrams 
+Sample Input 2: 
+orchestra 
+carthorse 
+Sample Output 2: 
+Anagrams 
+Sample Input 3: 
+hello 
+world 
+Sample Output 3: 
+Not Anagrams 
+
+
