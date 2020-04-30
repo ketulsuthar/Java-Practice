@@ -1,0 +1,16 @@
+
+/*
+
+2. Unique Even Sum 
+
+Write a program to read an array, eliminiate duplicate elements, and calculate the sum of even numbers (values) present in the array. 
+Include a class UserMainCode with a static method addUniqueEven that accepts a single integer array. The return type (integer) should be the sum of the even numbers. In case there is no even number, it should return -1. 
+Create a Class Main that would be used to accept input array and call the static method present in UserMainCode. 
+
+Input and Output Format: 
+Input consists of n+1 integers. The first integer corresponds to n, the number of elements in the array. The next “n” integers correspond to the elements in the array. 
+In case there is no even integer in the input array, print no even numbers as output. Otherwise, print the sum. 
+Refer the sample output for formatting specifications. 
+Assume that the maximum number of elements in the array is 20.
+
+*/
