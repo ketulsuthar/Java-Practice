@@ -1,0 +1,26 @@
+/*
+
+3. String Occurences 
+
+Obtain two strings from user as input. Your program should count the number of occurences of second word of second sentence in the first sentence. 
+Return the count as output. Note - Consider case. 
+Include a class UserMainCode with a static method countNoOfWords that accepts two string variables. The return type is the modified string. 
+Create a Class Main that would be used to accept two input strings and call the static method present in UserMainCode. 
+Input and Output Format: 
+Input consists of two strings with a maximum size of 100 characters. 
+Output consists of a single string. 
+Refer the sample output for formatting specifications. 
+
+Sample Input 1: 
+abc bcd abc bcd abc abc 
+av abc 
+Sample Output 1: 
+4 
+Sample Input 2: 
+ABC xyz AAA 
+w abc 
+Sample Output 2: 
+0
+
+
+*/
