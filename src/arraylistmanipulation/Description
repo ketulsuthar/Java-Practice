@@ -1,0 +1,37 @@
+
+4. ArrayList Manipulation 
+
+Write a program that performs the following actions: 
+1. Read 2n integers as input. 
+2. Create two array lists to store n elements in each array list. 
+3. Write a function generateOddEvenList that accepts these two array lists as input. 
+4. The function fetches the odd index elements from first array list and even index elements from second array list and adds them to a new array list according to their index. 
+5. Return the arraylist.
+Include a class UserMainCode with the static method generateOddEvenList that accepts two arraylists and returns an arraylist. 
+Create a Class Main that would be used to read 2n integers and call the static method present in UserMainCode. 
+Note: 
+- The index of first element is 0. 
+- Consider 0 an even number. 
+- Maintain order in the output array list 
+Input and Output Format: 
+Input consists of 2n+1 integers. The first integer denotes the size of the arraylist, the next n integers are values of the first arraylist, and the last n integers are values of the second arraylist. 
+Output consists of a modified arraylist as per step 4. 
+Refer sample output for formatting specifications. 
+Sample Input 1: 
+5 
+12 
+13 
+14 
+15 
+16 
+2 
+3 
+4 
+5 
+6 
+Sample Output 1: 
+2 
+13 
+4 
+15 
+6
